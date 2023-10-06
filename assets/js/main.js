@@ -21,7 +21,14 @@ if(navClose){
 
 
 /*=============== REMOVE MENU MOBILE ===============*/
+const navLink = document.querySelectorAll('.nav__link')
 
+const linkAction = () =>{
+    const navMenu = document.getElementById('nav-menu')
+    //Cuando hacemos clic en cada nav__link, eliminamos el show-menu
+    navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== SWIPER PROJECTS ===============*/
 

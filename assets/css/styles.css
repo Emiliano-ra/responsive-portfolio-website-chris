@@ -189,7 +189,6 @@ body.dark-theme {
   display: flex;
   font-size: 1.25rem;
   cursor: pointer;
-
 }
 
 @media screen and (max-width: 1023px) {
